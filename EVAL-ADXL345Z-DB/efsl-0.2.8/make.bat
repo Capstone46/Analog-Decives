@@ -1,0 +1,1 @@
+arm-uclibc-gcc -marm -mthumb -gdwarf-2 -MD -mapcs-frame -mthumb-interwork -Iinc -Iconf -Ic:\Keil\ARM\INC\Adi -c src\efs.c -o src\efs.o

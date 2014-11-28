@@ -1,0 +1,1 @@
+--device DARMAD -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC\ADI" --list "startup_RV.lst" --xref -o "startup_RV.o" "startup_RV.s"

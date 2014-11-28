@@ -1,0 +1,90 @@
+Dependencies for Project 'datalogger', Target 'Target 1': (DO NOT MODIFY !)
+F (.\ADuC702x.s)(0x5477B071)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --16 --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI--list .\aduc702x.lst --xref -o .\aduc702x.o --depend .\aduc702x.d)
+F (.\debug_printf.c)(0x5477B073)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI-D__KEIL__-o .\debug_printf.o --omf_browse .\debug_printf.crf --depend .\debug_printf.d)
+I (C:\Keil_v5\ARM\Inc\ADI\aduc7024.H)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\irq.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\timer.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\dac.h)(0x5477CEB6)
+I (C:\Keil_v5\ARM\Inc\ADI\uart.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\I2C.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\PLA.H)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\GPIO.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\flash.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\pwm.h)(0x53470926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (debug_printf.h)(0x5477B073)
+F (.\datalogger.c)(0x5477CCE8)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI-D__KEIL__-o .\datalogger.o --omf_browse .\datalogger.crf --depend .\datalogger.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x541A706C)
+I (.\inc\XL345.h)(0x5477B080)
+I (.\inc\xl345_io.h)(0x5477B080)
+I (dev_board.h)(0x5477B073)
+I (DAC.h)(0x5477B072)
+I (ADuC7024_RV.h)(0x5477B071)
+I (C:\Keil_v5\ARM\Inc\ADI\irq.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\timer.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\dac.h)(0x5477CEB6)
+I (C:\Keil_v5\ARM\Inc\ADI\uart.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\I2C.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\PLA.H)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\GPIO.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\flash.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\pwm.h)(0x53470926)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x541A706C)
+I (debug_printf.h)(0x5477B073)
+I (.\efsl-0.2.8\inc\efs.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\types.h)(0x5477B079)
+I (.\efsl-0.2.8\conf\config.h)(0x5477B078)
+I (.\efsl-0.2.8\inc\interface.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\interfaces/aduc702x_spi.h)(0x5477B07A)
+I (C:\Keil_v5\ARM\Inc\ADI\ADuC7024.h)(0x53470926)
+I (.\efsl-0.2.8\inc\interfaces/../debug.h)(0x5477B078)
+I (.\efsl-0.2.8\inc\disc.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\error.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\ioman.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\plibc.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\extract.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\partition.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\fs.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\time.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\file.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\dir.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\fat.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\ui.h)(0x5477B079)
+I (.\efsl-0.2.8\inc\ls.h)(0x5477B079)
+F (.\efsl-0.2.8\src\interfaces\aduc702x_spi.c)(0x5477B07F)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI-D__KEIL__-o .\aduc702x_spi.o --omf_browse .\aduc702x_spi.crf --depend .\aduc702x_spi.d)
+I (.\efsl-0.2.8\inc\interfaces/aduc702x_spi.h)(0x5477B07A)
+I (C:\Keil_v5\ARM\Inc\ADI\ADuC7024.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\irq.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\timer.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\dac.h)(0x5477CEB6)
+I (C:\Keil_v5\ARM\Inc\ADI\uart.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\I2C.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\PLA.H)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\GPIO.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\flash.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\pwm.h)(0x53470926)
+I (.\efsl-0.2.8\inc\interfaces/../debug.h)(0x5477B078)
+I (.\efsl-0.2.8\inc\interfaces/../types.h)(0x5477B079)
+I (.\efsl-0.2.8\conf\config.h)(0x5477B078)
+I (.\efsl-0.2.8\inc\interfaces/sd.h)(0x5477B07A)
+I (.\efsl-0.2.8\inc\debug_printf.h)(0x5477B078)
+F (.\xl345_io_bb.c)(0x5477BAF5)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI-D__KEIL__-o .\xl345_io_bb.o --omf_browse .\xl345_io_bb.crf --depend .\xl345_io_bb.d)
+I (C:\Keil_v5\ARM\Inc\ADI\ADuC7024.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\irq.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\timer.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\dac.h)(0x5477CEB6)
+I (C:\Keil_v5\ARM\Inc\ADI\uart.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\I2C.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\PLA.H)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\GPIO.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\flash.h)(0x53470926)
+I (C:\Keil_v5\ARM\Inc\ADI\pwm.h)(0x53470926)
+I (.\inc\xl345_io.h)(0x5477B080)
+I (.\inc\XL345.h)(0x5477B080)
+F (.\efsl-0.2.8\efsl2.lib)(0x5477B075)()
+F (.\Retarget.c)(0x5477B073)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\ADI-D__KEIL__-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x541A706C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x541A706A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x541A706A)

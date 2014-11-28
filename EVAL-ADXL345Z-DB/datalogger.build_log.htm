@@ -1,0 +1,97 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.12.0.5
+Copyright (C) 2014 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Ali Hossain, University of British Columbia, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.12.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 (build 41)
+Assembler:       Armasm.exe V5.05 (build 41)
+Linker/Locator:  ArmLink.exe V5.05 (build 41)
+Library Manager: ArmAr.exe V5.05 (build 41)
+Hex Converter:   FromElf.exe V5.05 (build 41)
+CPU DLL:         SARM.DLL V5.12.0.0
+Dialog DLL:      DARMAD.DLL V1.16
+Target DLL:      Segger\JLTAgdi.dll V1.59.0.0
+Dialog DLL:      TARMAD.DLL V1.16
+ 
+<h2>Project:</h2>
+D:\EVAL-ADXL345Z-DB\datalogger.uvproj
+Project File Date:  11/27/2014
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+Clean started - Project: 'datalogger'
+   deleting intermediate output files for target 'Target 1'
+assembling ADuC702x.s...
+compiling debug_printf.c...
+compiling datalogger.c...
+datalogger.c(287): warning:  #1295-D: Deprecated declaration Initialize - give arg types
+  int Initialize();
+datalogger.c(334): warning:  #111-D: statement is unreachable
+        return 0;
+datalogger.c(568): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+        result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(567): warning:  #550-D: variable "result" was set but never used
+        int result = 0;
+datalogger.c(893): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+                                result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(998): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+                                result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(1067): warning:  #111-D: statement is unreachable
+  return true;
+datalogger.c: 7 warnings, 0 errors
+compiling aduc702x_spi.c...
+compiling xl345_io_bb.c...
+xl345_io_bb.c(32): warning:  #1295-D: Deprecated declaration i2cinit - give arg types
+  void i2cinit();
+xl345_io_bb.c(33): warning:  #1295-D: Deprecated declaration I2C_START - give arg types
+  void I2C_START();
+xl345_io_bb.c(34): warning:  #1295-D: Deprecated declaration I2C_STOP - give arg types
+  void I2C_STOP();
+xl345_io_bb.c: 3 warnings, 0 errors
+compiling Retarget.c...
+linking...
+Program Size: Code=16060 RO-data=52 RW-data=24 ZI-data=5380  
+".\datalogger.axf" - 0 Error(s), 10 Warning(s).
+
+*** Performing Cross-Module-Optimization:
+compiling debug_printf.c...
+compiling datalogger.c...
+datalogger.c(287): warning:  #1295-D: Deprecated declaration Initialize - give arg types
+  int Initialize();
+datalogger.c(334): warning:  #111-D: statement is unreachable
+        return 0;
+datalogger.c(568): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+        result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(567): warning:  #550-D: variable "result" was set but never used
+        int result = 0;
+datalogger.c(893): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+                                result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(998): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "euint8 *"
+                                result = file_write(&(fileState->logFile), strlen(line), line);
+datalogger.c(1067): warning:  #111-D: statement is unreachable
+  return true;
+datalogger.c: 7 warnings, 0 errors
+compiling aduc702x_spi.c...
+compiling xl345_io_bb.c...
+xl345_io_bb.c(32): warning:  #1295-D: Deprecated declaration i2cinit - give arg types
+  void i2cinit();
+xl345_io_bb.c(33): warning:  #1295-D: Deprecated declaration I2C_START - give arg types
+  void I2C_START();
+xl345_io_bb.c(34): warning:  #1295-D: Deprecated declaration I2C_STOP - give arg types
+  void I2C_STOP();
+xl345_io_bb.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=16060 RO-data=52 RW-data=24 ZI-data=5380  
+FromELF: creating hex file...
+".\datalogger.axf" - 0 Error(s), 10 Warning(s).
+*** Completed Cross-Module-Optimization after 2 iteration(s).
+</pre>
+</body>
+</html>

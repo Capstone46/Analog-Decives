@@ -1,0 +1,426 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\ADuC702xV1.3\Projects\DevBoard\DevBoard\efsl-0.2.8\src\efsl.uvproj
+Project File Date:  02/23/2010
+
+<h2>Output:</h2>
+compiling ui.c...
+ui.c(35): error: ui.h: No such file or directory
+ui.c(48): error: parse error before '*' token
+ui.c: In function `listFiles':
+ui.c(54): error: `FileRecord' undeclared (first use in this function)
+ui.c(54): error: (Each undeclared identifier is reported only once
+ui.c(54): error: for each function it appears in.)
+ui.c(54): error: parse error before "fileEntry"
+ui.c(55): error: `FileLocation' undeclared (first use in this function)
+ui.c(57): error: `File' undeclared (first use in this function)
+ui.c(57): error: parse error before "dir"
+ui.c(61): error: `dirname' undeclared (first use in this function)
+ui.c(63): error: `fs' undeclared (first use in this function)
+ui.c(63): error: `FAT12' undeclared (first use in this function)
+ui.c(63): error: `FAT16' undeclared (first use in this function)
+ui.c(67): error: `loc' undeclared (first use in this function)
+ui.c(68): warning: implicit declaration of function `part_readBuf'
+ui.c(77): warning: implicit declaration of function `fs_findFile'
+ui.c(79): warning: implicit declaration of function `FUNC_OUT'
+ui.c(79): warning: implicit declaration of function `TXT'
+ui.c(85): error: `fileEntry' undeclared (first use in this function)
+ui.c(85): error: parse error before ')' token
+ui.c(90): error: `dir' undeclared (first use in this function)
+ui.c(93): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(95): warning: implicit declaration of function `file_fread'
+ui.c(97): warning: implicit declaration of function `DBG'
+ui.c(100): error: parse error before ')' token
+ui.c: At top level:
+ui.c(132): error: parse error before "rmfile"
+ui.c(132): error: parse error before '*' token
+ui.c(133): warning: return type defaults to `int'
+ui.c: In function `rmfile':
+ui.c(134): error: `FileLocation' undeclared (first use in this function)
+ui.c(134): error: parse error before "loc"
+ui.c(135): error: `ClusterChain' undeclared (first use in this function)
+ui.c(136): error: `euint8' undeclared (first use in this function)
+ui.c(136): error: `buf' undeclared (first use in this function)
+ui.c(137): error: `euint32' undeclared (first use in this function)
+ui.c(137): error: parse error before "firstCluster"
+ui.c(139): error: `fs' undeclared (first use in this function)
+ui.c(139): error: `eint8' undeclared (first use in this function)
+ui.c(139): error: parse error before ')' token
+ui.c(141): error: `firstCluster' undeclared (first use in this function)
+ui.c(141): warning: implicit declaration of function `ex_getb16'
+ui.c(141): error: `loc' undeclared (first use in this function)
+ui.c(150): warning: implicit declaration of function `part_relSect'
+ui.c(151): error: `cache' undeclared (first use in this function)
+ui.c(153): warning: implicit declaration of function `fat_unlinkClusterChain'
+ui.c: At top level:
+ui.c(156): error: parse error before "return"
+ui.c(160): error: parse error before '*' token
+ui.c(161): warning: return type defaults to `int'
+ui.c: In function `mkdir':
+ui.c(162): error: `FileLocation' undeclared (first use in this function)
+ui.c(162): error: parse error before "loc"
+ui.c(163): error: `FileRecord' undeclared (first use in this function)
+ui.c(164): error: `euint32' undeclared (first use in this function)
+ui.c(165): error: `euint8' undeclared (first use in this function)
+ui.c(165): error: `buf' undeclared (first use in this function)
+ui.c(166): error: `eint8' undeclared (first use in this function)
+ui.c(166): error: parse error before "ffname"
+ui.c(168): error: `fs' undeclared (first use in this function)
+ui.c(168): error: `dirname' undeclared (first use in this function)
+ui.c(168): error: `loc' undeclared (first use in this function)
+ui.c(168): error: `parentdir' undeclared (first use in this function)
+ui.c(173): warning: implicit declaration of function `fs_findFreeFile'
+ui.c(182): error: `nc' undeclared (first use in this function)
+ui.c(182): warning: implicit declaration of function `fs_getNextFreeCluster'
+ui.c(182): warning: implicit declaration of function `fs_giveFreeClusterHint'
+ui.c(185): warning: implicit declaration of function `fs_clearCluster'
+ui.c(187): warning: implicit declaration of function `part_getSect'
+ui.c(187): error: `IOM_MODE_READWRITE' undeclared (first use in this function)
+ui.c(189): warning: implicit declaration of function `dir_getFatFileName'
+ui.c(189): error: `ffname' undeclared (first use in this function)
+ui.c(190): warning: implicit declaration of function `memClr'
+ui.c(190): error: `direntry' undeclared (first use in this function)
+ui.c(191): warning: implicit declaration of function `memCpy'
+ui.c(195): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(200): warning: implicit declaration of function `fs_clusterToSector'
+ui.c(210): error: `FAT32' undeclared (first use in this function)
+ui.c(227): warning: implicit declaration of function `fat_setNextClusterAddress'
+ui.c(227): warning: implicit declaration of function `fat_giveEocMarker'
+ui.c - 54 Error(s), 22 Warning(s).
+compiling ui.c...
+ui.c(35): error: ui.h: No such file or directory
+ui.c(48): error: parse error before '*' token
+ui.c: In function `listFiles':
+ui.c(54): error: `FileRecord' undeclared (first use in this function)
+ui.c(54): error: (Each undeclared identifier is reported only once
+ui.c(54): error: for each function it appears in.)
+ui.c(54): error: parse error before "fileEntry"
+ui.c(55): error: `FileLocation' undeclared (first use in this function)
+ui.c(57): error: `File' undeclared (first use in this function)
+ui.c(57): error: parse error before "dir"
+ui.c(61): error: `dirname' undeclared (first use in this function)
+ui.c(63): error: `fs' undeclared (first use in this function)
+ui.c(63): error: `FAT12' undeclared (first use in this function)
+ui.c(63): error: `FAT16' undeclared (first use in this function)
+ui.c(67): error: `loc' undeclared (first use in this function)
+ui.c(68): warning: implicit declaration of function `part_readBuf'
+ui.c(77): warning: implicit declaration of function `fs_findFile'
+ui.c(79): warning: implicit declaration of function `FUNC_OUT'
+ui.c(79): warning: implicit declaration of function `TXT'
+ui.c(85): error: `fileEntry' undeclared (first use in this function)
+ui.c(85): error: parse error before ')' token
+ui.c(90): error: `dir' undeclared (first use in this function)
+ui.c(93): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(95): warning: implicit declaration of function `file_fread'
+ui.c(97): warning: implicit declaration of function `DBG'
+ui.c(100): error: parse error before ')' token
+ui.c: At top level:
+ui.c(132): error: parse error before "rmfile"
+ui.c(132): error: parse error before '*' token
+ui.c(133): warning: return type defaults to `int'
+ui.c: In function `rmfile':
+ui.c(134): error: `FileLocation' undeclared (first use in this function)
+ui.c(134): error: parse error before "loc"
+ui.c(135): error: `ClusterChain' undeclared (first use in this function)
+ui.c(136): error: `euint8' undeclared (first use in this function)
+ui.c(136): error: `buf' undeclared (first use in this function)
+ui.c(137): error: `euint32' undeclared (first use in this function)
+ui.c(137): error: parse error before "firstCluster"
+ui.c(139): error: `fs' undeclared (first use in this function)
+ui.c(139): error: `eint8' undeclared (first use in this function)
+ui.c(139): error: parse error before ')' token
+ui.c(141): error: `firstCluster' undeclared (first use in this function)
+ui.c(141): warning: implicit declaration of function `ex_getb16'
+ui.c(141): error: `loc' undeclared (first use in this function)
+ui.c(150): warning: implicit declaration of function `part_relSect'
+ui.c(151): error: `cache' undeclared (first use in this function)
+ui.c(153): warning: implicit declaration of function `fat_unlinkClusterChain'
+ui.c: At top level:
+ui.c(156): error: parse error before "return"
+ui.c(160): error: parse error before '*' token
+ui.c(161): warning: return type defaults to `int'
+ui.c: In function `mkdir':
+ui.c(162): error: `FileLocation' undeclared (first use in this function)
+ui.c(162): error: parse error before "loc"
+ui.c(163): error: `FileRecord' undeclared (first use in this function)
+ui.c(164): error: `euint32' undeclared (first use in this function)
+ui.c(165): error: `euint8' undeclared (first use in this function)
+ui.c(165): error: `buf' undeclared (first use in this function)
+ui.c(166): error: `eint8' undeclared (first use in this function)
+ui.c(166): error: parse error before "ffname"
+ui.c(168): error: `fs' undeclared (first use in this function)
+ui.c(168): error: `dirname' undeclared (first use in this function)
+ui.c(168): error: `loc' undeclared (first use in this function)
+ui.c(168): error: `parentdir' undeclared (first use in this function)
+ui.c(173): warning: implicit declaration of function `fs_findFreeFile'
+ui.c(182): error: `nc' undeclared (first use in this function)
+ui.c(182): warning: implicit declaration of function `fs_getNextFreeCluster'
+ui.c(182): warning: implicit declaration of function `fs_giveFreeClusterHint'
+ui.c(185): warning: implicit declaration of function `fs_clearCluster'
+ui.c(187): warning: implicit declaration of function `part_getSect'
+ui.c(187): error: `IOM_MODE_READWRITE' undeclared (first use in this function)
+ui.c(189): warning: implicit declaration of function `dir_getFatFileName'
+ui.c(189): error: `ffname' undeclared (first use in this function)
+ui.c(190): warning: implicit declaration of function `memClr'
+ui.c(190): error: `direntry' undeclared (first use in this function)
+ui.c(191): warning: implicit declaration of function `memCpy'
+ui.c(195): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(200): warning: implicit declaration of function `fs_clusterToSector'
+ui.c(210): error: `FAT32' undeclared (first use in this function)
+ui.c(227): warning: implicit declaration of function `fat_setNextClusterAddress'
+ui.c(227): warning: implicit declaration of function `fat_giveEocMarker'
+ui.c - 54 Error(s), 22 Warning(s).
+compiling ui.c...
+ui.c(35): error: ui.h: No such file or directory
+ui.c(48): error: parse error before '*' token
+ui.c: In function `listFiles':
+ui.c(54): error: `FileRecord' undeclared (first use in this function)
+ui.c(54): error: (Each undeclared identifier is reported only once
+ui.c(54): error: for each function it appears in.)
+ui.c(54): error: parse error before "fileEntry"
+ui.c(55): error: `FileLocation' undeclared (first use in this function)
+ui.c(57): error: `File' undeclared (first use in this function)
+ui.c(57): error: parse error before "dir"
+ui.c(61): error: `dirname' undeclared (first use in this function)
+ui.c(63): error: `fs' undeclared (first use in this function)
+ui.c(63): error: `FAT12' undeclared (first use in this function)
+ui.c(63): error: `FAT16' undeclared (first use in this function)
+ui.c(67): error: `loc' undeclared (first use in this function)
+ui.c(68): warning: implicit declaration of function `part_readBuf'
+ui.c(77): warning: implicit declaration of function `fs_findFile'
+ui.c(79): warning: implicit declaration of function `FUNC_OUT'
+ui.c(79): warning: implicit declaration of function `TXT'
+ui.c(85): error: `fileEntry' undeclared (first use in this function)
+ui.c(85): error: parse error before ')' token
+ui.c(90): error: `dir' undeclared (first use in this function)
+ui.c(93): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(95): warning: implicit declaration of function `file_fread'
+ui.c(97): warning: implicit declaration of function `DBG'
+ui.c(100): error: parse error before ')' token
+ui.c: At top level:
+ui.c(132): error: parse error before "rmfile"
+ui.c(132): error: parse error before '*' token
+ui.c(133): warning: return type defaults to `int'
+ui.c: In function `rmfile':
+ui.c(134): error: `FileLocation' undeclared (first use in this function)
+ui.c(134): error: parse error before "loc"
+ui.c(135): error: `ClusterChain' undeclared (first use in this function)
+ui.c(136): error: `euint8' undeclared (first use in this function)
+ui.c(136): error: `buf' undeclared (first use in this function)
+ui.c(137): error: `euint32' undeclared (first use in this function)
+ui.c(137): error: parse error before "firstCluster"
+ui.c(139): error: `fs' undeclared (first use in this function)
+ui.c(139): error: `eint8' undeclared (first use in this function)
+ui.c(139): error: parse error before ')' token
+ui.c(141): error: `firstCluster' undeclared (first use in this function)
+ui.c(141): warning: implicit declaration of function `ex_getb16'
+ui.c(141): error: `loc' undeclared (first use in this function)
+ui.c(150): warning: implicit declaration of function `part_relSect'
+ui.c(151): error: `cache' undeclared (first use in this function)
+ui.c(153): warning: implicit declaration of function `fat_unlinkClusterChain'
+ui.c: At top level:
+ui.c(156): error: parse error before "return"
+ui.c(160): error: parse error before '*' token
+ui.c(161): warning: return type defaults to `int'
+ui.c: In function `mkdir':
+ui.c(162): error: `FileLocation' undeclared (first use in this function)
+ui.c(162): error: parse error before "loc"
+ui.c(163): error: `FileRecord' undeclared (first use in this function)
+ui.c(164): error: `euint32' undeclared (first use in this function)
+ui.c(165): error: `euint8' undeclared (first use in this function)
+ui.c(165): error: `buf' undeclared (first use in this function)
+ui.c(166): error: `eint8' undeclared (first use in this function)
+ui.c(166): error: parse error before "ffname"
+ui.c(168): error: `fs' undeclared (first use in this function)
+ui.c(168): error: `dirname' undeclared (first use in this function)
+ui.c(168): error: `loc' undeclared (first use in this function)
+ui.c(168): error: `parentdir' undeclared (first use in this function)
+ui.c(173): warning: implicit declaration of function `fs_findFreeFile'
+ui.c(182): error: `nc' undeclared (first use in this function)
+ui.c(182): warning: implicit declaration of function `fs_getNextFreeCluster'
+ui.c(182): warning: implicit declaration of function `fs_giveFreeClusterHint'
+ui.c(185): warning: implicit declaration of function `fs_clearCluster'
+ui.c(187): warning: implicit declaration of function `part_getSect'
+ui.c(187): error: `IOM_MODE_READWRITE' undeclared (first use in this function)
+ui.c(189): warning: implicit declaration of function `dir_getFatFileName'
+ui.c(189): error: `ffname' undeclared (first use in this function)
+ui.c(190): warning: implicit declaration of function `memClr'
+ui.c(190): error: `direntry' undeclared (first use in this function)
+ui.c(191): warning: implicit declaration of function `memCpy'
+ui.c(195): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(200): warning: implicit declaration of function `fs_clusterToSector'
+ui.c(210): error: `FAT32' undeclared (first use in this function)
+ui.c(227): warning: implicit declaration of function `fat_setNextClusterAddress'
+ui.c(227): warning: implicit declaration of function `fat_giveEocMarker'
+ui.c - 54 Error(s), 22 Warning(s).
+compiling ui.c...
+cc1: warning: -mapcs-stack-check incompatible with -mno-apcs-frame
+ui.c(35): error: ui.h: No such file or directory
+ui.c(48): error: parse error before '*' token
+ui.c: In function `listFiles':
+ui.c(54): error: `FileRecord' undeclared (first use in this function)
+ui.c(54): error: (Each undeclared identifier is reported only once
+ui.c(54): error: for each function it appears in.)
+ui.c(54): error: parse error before "fileEntry"
+ui.c(55): error: `FileLocation' undeclared (first use in this function)
+ui.c(57): error: `File' undeclared (first use in this function)
+ui.c(57): error: parse error before "dir"
+ui.c(61): error: `dirname' undeclared (first use in this function)
+ui.c(63): error: `fs' undeclared (first use in this function)
+ui.c(63): error: `FAT12' undeclared (first use in this function)
+ui.c(63): error: `FAT16' undeclared (first use in this function)
+ui.c(67): error: `loc' undeclared (first use in this function)
+ui.c(68): warning: implicit declaration of function `part_readBuf'
+ui.c(77): warning: implicit declaration of function `fs_findFile'
+ui.c(79): warning: implicit declaration of function `FUNC_OUT'
+ui.c(79): warning: implicit declaration of function `TXT'
+ui.c(85): error: `fileEntry' undeclared (first use in this function)
+ui.c(85): error: parse error before ')' token
+ui.c(90): error: `dir' undeclared (first use in this function)
+ui.c(93): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(95): warning: implicit declaration of function `file_fread'
+ui.c(97): warning: implicit declaration of function `DBG'
+ui.c(100): error: parse error before ')' token
+ui.c: At top level:
+ui.c(132): error: parse error before "rmfile"
+ui.c(132): error: parse error before '*' token
+ui.c(133): warning: return type defaults to `int'
+ui.c: In function `rmfile':
+ui.c(134): error: `FileLocation' undeclared (first use in this function)
+ui.c(134): error: parse error before "loc"
+ui.c(135): error: `ClusterChain' undeclared (first use in this function)
+ui.c(136): error: `euint8' undeclared (first use in this function)
+ui.c(136): error: `buf' undeclared (first use in this function)
+ui.c(137): error: `euint32' undeclared (first use in this function)
+ui.c(137): error: parse error before "firstCluster"
+ui.c(139): error: `fs' undeclared (first use in this function)
+ui.c(139): error: `eint8' undeclared (first use in this function)
+ui.c(139): error: parse error before ')' token
+ui.c(141): error: `firstCluster' undeclared (first use in this function)
+ui.c(141): warning: implicit declaration of function `ex_getb16'
+ui.c(141): error: `loc' undeclared (first use in this function)
+ui.c(150): warning: implicit declaration of function `part_relSect'
+ui.c(151): error: `cache' undeclared (first use in this function)
+ui.c(153): warning: implicit declaration of function `fat_unlinkClusterChain'
+ui.c: At top level:
+ui.c(156): error: parse error before "return"
+ui.c(160): error: parse error before '*' token
+ui.c(161): warning: return type defaults to `int'
+ui.c: In function `mkdir':
+ui.c(162): error: `FileLocation' undeclared (first use in this function)
+ui.c(162): error: parse error before "loc"
+ui.c(163): error: `FileRecord' undeclared (first use in this function)
+ui.c(164): error: `euint32' undeclared (first use in this function)
+ui.c(165): error: `euint8' undeclared (first use in this function)
+ui.c(165): error: `buf' undeclared (first use in this function)
+ui.c(166): error: `eint8' undeclared (first use in this function)
+ui.c(166): error: parse error before "ffname"
+ui.c(168): error: `fs' undeclared (first use in this function)
+ui.c(168): error: `dirname' undeclared (first use in this function)
+ui.c(168): error: `loc' undeclared (first use in this function)
+ui.c(168): error: `parentdir' undeclared (first use in this function)
+ui.c(173): warning: implicit declaration of function `fs_findFreeFile'
+ui.c(182): error: `nc' undeclared (first use in this function)
+ui.c(182): warning: implicit declaration of function `fs_getNextFreeCluster'
+ui.c(182): warning: implicit declaration of function `fs_giveFreeClusterHint'
+ui.c(185): warning: implicit declaration of function `fs_clearCluster'
+ui.c(187): warning: implicit declaration of function `part_getSect'
+ui.c(187): error: `IOM_MODE_READWRITE' undeclared (first use in this function)
+ui.c(189): warning: implicit declaration of function `dir_getFatFileName'
+ui.c(189): error: `ffname' undeclared (first use in this function)
+ui.c(190): warning: implicit declaration of function `memClr'
+ui.c(190): error: `direntry' undeclared (first use in this function)
+ui.c(191): warning: implicit declaration of function `memCpy'
+ui.c(195): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(200): warning: implicit declaration of function `fs_clusterToSector'
+ui.c(210): error: `FAT32' undeclared (first use in this function)
+ui.c(227): warning: implicit declaration of function `fat_setNextClusterAddress'
+ui.c(227): warning: implicit declaration of function `fat_giveEocMarker'
+ui.c - 54 Error(s), 22 Warning(s).
+compiling ui.c...
+cc1: warning: -mapcs-stack-check incompatible with -mno-apcs-frame
+ui.c(35): error: ui.h: No such file or directory
+ui.c(48): error: parse error before '*' token
+ui.c: In function `listFiles':
+ui.c(54): error: `FileRecord' undeclared (first use in this function)
+ui.c(54): error: (Each undeclared identifier is reported only once
+ui.c(54): error: for each function it appears in.)
+ui.c(54): error: parse error before "fileEntry"
+ui.c(55): error: `FileLocation' undeclared (first use in this function)
+ui.c(57): error: `File' undeclared (first use in this function)
+ui.c(57): error: parse error before "dir"
+ui.c(61): error: `dirname' undeclared (first use in this function)
+ui.c(63): error: `fs' undeclared (first use in this function)
+ui.c(63): error: `FAT12' undeclared (first use in this function)
+ui.c(63): error: `FAT16' undeclared (first use in this function)
+ui.c(67): error: `loc' undeclared (first use in this function)
+ui.c(68): warning: implicit declaration of function `part_readBuf'
+ui.c(77): warning: implicit declaration of function `fs_findFile'
+ui.c(79): warning: implicit declaration of function `FUNC_OUT'
+ui.c(79): warning: implicit declaration of function `TXT'
+ui.c(85): error: `fileEntry' undeclared (first use in this function)
+ui.c(85): error: parse error before ')' token
+ui.c(90): error: `dir' undeclared (first use in this function)
+ui.c(93): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(95): warning: implicit declaration of function `file_fread'
+ui.c(97): warning: implicit declaration of function `DBG'
+ui.c(100): error: parse error before ')' token
+ui.c: At top level:
+ui.c(132): error: parse error before "rmfile"
+ui.c(132): error: parse error before '*' token
+ui.c(133): warning: return type defaults to `int'
+ui.c: In function `rmfile':
+ui.c(134): error: `FileLocation' undeclared (first use in this function)
+ui.c(134): error: parse error before "loc"
+ui.c(135): error: `ClusterChain' undeclared (first use in this function)
+ui.c(136): error: `euint8' undeclared (first use in this function)
+ui.c(136): error: `buf' undeclared (first use in this function)
+ui.c(137): error: `euint32' undeclared (first use in this function)
+ui.c(137): error: parse error before "firstCluster"
+ui.c(139): error: `fs' undeclared (first use in this function)
+ui.c(139): error: `eint8' undeclared (first use in this function)
+ui.c(139): error: parse error before ')' token
+ui.c(141): error: `firstCluster' undeclared (first use in this function)
+ui.c(141): warning: implicit declaration of function `ex_getb16'
+ui.c(141): error: `loc' undeclared (first use in this function)
+ui.c(150): warning: implicit declaration of function `part_relSect'
+ui.c(151): error: `cache' undeclared (first use in this function)
+ui.c(153): warning: implicit declaration of function `fat_unlinkClusterChain'
+ui.c: At top level:
+ui.c(156): error: parse error before "return"
+ui.c(160): error: parse error before '*' token
+ui.c(161): warning: return type defaults to `int'
+ui.c: In function `mkdir':
+ui.c(162): error: `FileLocation' undeclared (first use in this function)
+ui.c(162): error: parse error before "loc"
+ui.c(163): error: `FileRecord' undeclared (first use in this function)
+ui.c(164): error: `euint32' undeclared (first use in this function)
+ui.c(165): error: `euint8' undeclared (first use in this function)
+ui.c(165): error: `buf' undeclared (first use in this function)
+ui.c(166): error: `eint8' undeclared (first use in this function)
+ui.c(166): error: parse error before "ffname"
+ui.c(168): error: `fs' undeclared (first use in this function)
+ui.c(168): error: `dirname' undeclared (first use in this function)
+ui.c(168): error: `loc' undeclared (first use in this function)
+ui.c(168): error: `parentdir' undeclared (first use in this function)
+ui.c(173): warning: implicit declaration of function `fs_findFreeFile'
+ui.c(182): error: `nc' undeclared (first use in this function)
+ui.c(182): warning: implicit declaration of function `fs_getNextFreeCluster'
+ui.c(182): warning: implicit declaration of function `fs_giveFreeClusterHint'
+ui.c(185): warning: implicit declaration of function `fs_clearCluster'
+ui.c(187): warning: implicit declaration of function `part_getSect'
+ui.c(187): error: `IOM_MODE_READWRITE' undeclared (first use in this function)
+ui.c(189): warning: implicit declaration of function `dir_getFatFileName'
+ui.c(189): error: `ffname' undeclared (first use in this function)
+ui.c(190): warning: implicit declaration of function `memClr'
+ui.c(190): error: `direntry' undeclared (first use in this function)
+ui.c(191): warning: implicit declaration of function `memCpy'
+ui.c(195): error: `ATTR_DIRECTORY' undeclared (first use in this function)
+ui.c(200): warning: implicit declaration of function `fs_clusterToSector'
+ui.c(210): error: `FAT32' undeclared (first use in this function)
+ui.c(227): warning: implicit declaration of function `fat_setNextClusterAddress'
+ui.c(227): warning: implicit declaration of function `fat_giveEocMarker'
+ui.c - 54 Error(s), 22 Warning(s).

@@ -1,0 +1,6 @@
+--thumb -c --cpu ARM7TDMI -D__EVAL -g -O3 -Otime --apcs=interwork --split_ldm --split_sections -I.\efsl-0.2.8\inc -I.\efsl-0.2.8\conf -I.\inc
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\ADI
+-D__KEIL__
+-o .\xl345_io_bb.o --omf_browse .\xl345_io_bb.crf --depend .\xl345_io_bb.d --feedback ".\datalogger.fed" "xl345_io_bb.c"

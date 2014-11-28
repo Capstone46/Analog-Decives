@@ -1,0 +1,97 @@
+;#<FEEDBACK># ARM Linker, 5050041: Last Updated: Thu Nov 27 17:24:56 2014
+;VERSION 0.2
+;FILE aduc702x_spi.o
+if_setPos <= USED 0
+if_spiInit <= USED 0
+if_spiSetSpeed <= USED 0
+;FILE datalogger.o
+data_log <= USED 0
+delay <= USED 0
+;FILE debug_printf.o
+myputchar <= USED 0
+;FILE dir.o
+dir_findFileinBuf <= USED 0
+dir_findFreeEntryinBuf <= USED 0
+dir_findinBuf <= USED 0
+dir_findinCluster <= USED 0
+;FILE disc.o
+disc_loadMBR <= USED 0
+;FILE efs.o
+;FILE extract.o
+ex_setPartitionField <= USED 0
+ex_setb16 <= USED 0
+ex_setb32 <= USED 0
+;FILE fat.o
+fat_DiscToLogicCluster <= USED 0
+fat_countFreeClusters <= USED 0
+fat_isEocMarker <= USED 0
+fat_unlinkClusterChain <= USED 0
+;FILE file.o
+file_fread <= USED 0
+file_getAttr <= USED 0
+file_initFile <= USED 0
+file_read <= USED 0
+file_requiredCluster <= USED 0
+file_setAttr <= USED 0
+file_setpos <= USED 0
+file_validateChar <= USED 0
+;FILE fs.o
+fs_countDataSectors <= USED 0
+fs_determineFatType <= USED 0
+fs_findFirstSectorRootDir <= USED 0
+fs_flushFs <= USED 0
+fs_getFirstClusterRootDir <= USED 0
+fs_getFsInfo <= USED 0
+fs_initCurrentDir <= USED 0
+fs_isValidFat <= USED 0
+fs_loadVolumeId <= USED 0
+fs_sectorToCluster <= USED 0
+fs_setFsInfo <= USED 0
+;FILE ioman.o
+ioman_decRefCnt <= USED 0
+ioman_decUseCnt <= USED 0
+ioman_directSectorRead <= USED 0
+ioman_findFreeSpot <= USED 0
+ioman_findOverallocableSpot <= USED 0
+ioman_findSectorInCache <= USED 0
+ioman_flushAll <= USED 0
+ioman_getAttr <= USED 0
+ioman_getBp <= USED 0
+ioman_getBuffer <= USED 0
+ioman_getPtr <= USED 0
+ioman_getRefCnt <= USED 0
+ioman_getUseCnt <= USED 0
+ioman_incRefCnt <= USED 0
+ioman_incUseCnt <= USED 0
+ioman_pop <= USED 0
+ioman_printStatus <= USED 0
+ioman_push <= USED 0
+ioman_readSector <= USED 0
+ioman_reset <= USED 0
+ioman_resetCacheItem <= USED 0
+ioman_resetRefCnt <= USED 0
+ioman_resetUseCnt <= USED 0
+ioman_writeSector <= USED 0
+;FILE partition.o
+part_directSectorRead <= USED 0
+part_getRealLBA <= USED 0
+part_isFatPart <= USED 0
+part_readBuf <= USED 0
+part_writeBuf <= USED 0
+;FILE plibc.o
+memSet <= USED 0
+;FILE sd.o
+sd_Resp16b <= USED 0
+sd_Resp8b <= USED 0
+sd_Resp8bError <= USED 0
+;FILE time.o
+fs_makeDate <= USED 0
+fs_makeTime <= USED 0
+;FILE ui.o
+listFiles <= USED 0
+rmfile <= USED 0
+;FILE xl345_io_bb.o
+I2C_DELAY_M <= USED 0
+I2C_READ <= USED 0
+I2C_START <= USED 0
+I2C_STOP <= USED 0

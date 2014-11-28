@@ -1,0 +1,14 @@
+.\debug_printf.o: debug_printf.c
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\aduc7024.H
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\irq.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\timer.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\dac.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\uart.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\I2C.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\PLA.H
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\GPIO.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\flash.h
+.\debug_printf.o: C:\Keil_v5\ARM\Inc\ADI\pwm.h
+.\debug_printf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\debug_printf.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\debug_printf.o: debug_printf.h

@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\aduc702x.o"
+".\debug_printf.o"
+".\datalogger.o"
+".\aduc702x_spi.o"
+".\xl345_io_bb.o"
+".\efsl-0.2.8\efsl2.lib"
+".\retarget.o"
+
+--feedback ".\datalogger.fed" --feedback_image=none
+--strict --scatter ".\datalogger.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\datalogger.map" -o .\datalogger.axf

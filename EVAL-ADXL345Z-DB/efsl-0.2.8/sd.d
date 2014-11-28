@@ -1,0 +1,16 @@
+sd.o: src\interfaces\sd.c
+sd.o: .\inc\interfaces/sd.h
+sd.o: .\conf\config.h
+sd.o: .\inc\types.h
+sd.o: .\inc\interfaces/../debug.h
+sd.o: .\inc\interfaces/aduc702x_spi.h
+sd.o: C:\Keil\ARM\INC\ADI\ADuC7024.h
+sd.o: C:\Keil\ARM\INC\ADI\irq.h
+sd.o: C:\Keil\ARM\INC\ADI\timer.h
+sd.o: C:\Keil\ARM\INC\ADI\dac.h
+sd.o: C:\Keil\ARM\INC\ADI\uart.h
+sd.o: C:\Keil\ARM\INC\ADI\I2C.h
+sd.o: C:\Keil\ARM\INC\ADI\PLA.H
+sd.o: C:\Keil\ARM\INC\ADI\GPIO.h
+sd.o: C:\Keil\ARM\INC\ADI\flash.h
+sd.o: C:\Keil\ARM\INC\ADI\pwm.h

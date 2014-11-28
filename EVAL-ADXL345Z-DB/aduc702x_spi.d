@@ -1,0 +1,17 @@
+.\aduc702x_spi.o: efsl-0.2.8\src\interfaces\aduc702x_spi.c
+.\aduc702x_spi.o: .\efsl-0.2.8\inc\interfaces/aduc702x_spi.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\ADuC7024.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\irq.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\timer.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\dac.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\uart.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\I2C.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\PLA.H
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\GPIO.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\flash.h
+.\aduc702x_spi.o: C:\Keil_v5\ARM\Inc\ADI\pwm.h
+.\aduc702x_spi.o: .\efsl-0.2.8\inc\interfaces/../debug.h
+.\aduc702x_spi.o: .\efsl-0.2.8\inc\interfaces/../types.h
+.\aduc702x_spi.o: .\efsl-0.2.8\conf\config.h
+.\aduc702x_spi.o: .\efsl-0.2.8\inc\interfaces/sd.h
+.\aduc702x_spi.o: .\efsl-0.2.8\inc\debug_printf.h

@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'datalogger.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"aduc702x.o"'
+### List of Objects: adding '"debug_printf.o"'
+### List of Objects: adding '"datalogger.o"'
+### List of Objects: adding '"aduc702x_spi.o"'
+### List of Objects: adding '"xl345_io_bb.o"'
+### List of Objects: adding '".\efsl-0.2.8\efsl2.lib"'
+### List of Objects: adding '"retarget.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "aduc702x.o" "debug_printf.o" "datalogger.o" "aduc702x_spi.o" "xl345_io_bb.o" ".\efsl-0.2.8\efsl2.lib" "retarget.o" --feedback "datalogger.fed" 
+--strict --scatter "datalogger.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\datalogger.map" -o "datalogger.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'datalogger.axf'
+### ADS-LD Command File: 'datalogger.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'datalogger.lnp', Handle=0x00000190
+### Writing '.lnp' file
+### ADS-LD Command file 'datalogger.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

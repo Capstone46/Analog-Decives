@@ -1,0 +1,34 @@
+*** Creating Trace Output File 'efsl2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"ui.o"'
+### List of Objects: adding '"debug.o"'
+### List of Objects: adding '"dir.o"'
+### List of Objects: adding '"disc.o"'
+### List of Objects: adding '"efs.o"'
+### List of Objects: adding '"extract.o"'
+### List of Objects: adding '"fat.o"'
+### List of Objects: adding '"file.o"'
+### List of Objects: adding '"fs.o"'
+### List of Objects: adding '"ioman.o"'
+### List of Objects: adding '"ls.o"'
+### List of Objects: adding '"mkfs.o"'
+### List of Objects: adding '"partition.o"'
+### List of Objects: adding '"plibc.o"'
+### List of Objects: adding '"regressiontest.o"'
+### List of Objects: adding '"time.o"'
+### List of Objects: adding '"sd.o"'
+### ADS-LD Command completed:
+--device DARMAD "ui.o" "debug.o" "dir.o" "disc.o" "efs.o" "extract.o" "fat.o" "file.o" "fs.o" "ioman.o" "ls.o" "mkfs.o" "partition.o" "plibc.o" "regressiontest.o" "time.o" "sd.o" --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\efsl2.map" -o "efsl2.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'efsl2.axf'
+### ADS-LD Command File: 'efsl2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'efsl2.lnp', Handle=0x000003A0
+### Writing '.lnp' file
+### ADS-LD Command file 'efsl2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 4 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,13 @@
+.\xl345_io_bb.o: xl345_io_bb.c
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\ADuC7024.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\irq.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\timer.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\dac.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\uart.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\I2C.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\PLA.H
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\GPIO.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\flash.h
+.\xl345_io_bb.o: C:\Keil_v5\ARM\Inc\ADI\pwm.h
+.\xl345_io_bb.o: .\inc\xl345_io.h
+.\xl345_io_bb.o: .\inc\XL345.h
